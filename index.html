@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Input Number Incrementer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src='https://code.jquery.com/jquery-3.3.1.js'></script>
+    <script src="js/incrementing.js"></script>
+
+</head>
+
+<body>
+
+    <div id="page-wrap">
+
+        <h1>Welcome</h1>
+        <form method="post" action="">
+            <p>How many guests can your place accomodate?</p>
+            <label for="name">Guest</label>
+            <div class="numbers-row">
+                <input type="text" css{} name="guest" id="guest" value="1">
+            </div>
+            <br><br>
+
+            <p>How many bedrooms are available for guests?</p>
+            <label for="name">Bedrooms</label>
+            <div class="numbers-row">
+                <input type="text" name="bedroom" id="bedroom" value="0">
+            </div>
+            <br><br>
+            <p>How many bathrooms?</p>
+            <p>Separate toilets count as a 0.5 bathroom.</p>
+            <label for="name">Bathrooms</label>
+            <div class="numbers-row-bath">
+                <input type="text" name="bathroom" id="bathroom" value="0">
+            </div>
+            <br>
+            <p>Which beds are available?</p>
+            <label for="name">Single beds</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="single" value="0">
+            </div>
+
+            <label for="name">Double beds</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="double" value="0">
+            </div>
+
+            <label for="name">Queensize</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="queen" value="0">
+            </div>
+
+            <label for="name">Kingsize</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="king" value="0">
+            </div>
+
+            <label for="name">Bunk beds</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="bunk" value="0">
+            </div>
+
+            <label for="name">Floor mattress</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="floor" value="0">
+            </div>
+
+            <label for="name">Hammock</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="hammock" value="0">
+            </div>
+
+            <label for="name">Sofa bed</label>
+            <div class="numbers-row">
+                <input type="text" name="bed" id="sofa" value="0">
+            </div>
+
+            <div class="buttons">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
